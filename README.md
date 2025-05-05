@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Meu Portfólio (Atualização) #
 
 ## 🎨 Atualizações Recentes ##
