@@ -4,13 +4,14 @@
   box-sizing: border-box;
   text-decoration: none;
   scroll-behavior: smooth;
-  font-family: 'Poppins';
+  font-family: "Poppins";
 }
 :root {
   --bg-color: #080808;
   --second-bg-color: #101010;
   --text-color: white;
-  --main-color: #ea580c;
+  --main-color: #6f02b8;
+  --main-color2: #ea580c;
 }
 html {
   font-size: 60%;
@@ -49,7 +50,7 @@ body{
   transform: scale(1.1);
 }
 span{
-  background: linear-gradient(270deg, #DF8908 10%, #ff1d15);
+  background: linear-gradient(270deg, #b3b3ff 10%, #6f02b8);
   background-clip: text;
   color: transparent;
 }
@@ -69,7 +70,7 @@ span{
   font-size: 1.8rem;
   padding: 1rem 2rem;
   border-radius: 3rem;
-  background: linear-gradient(270deg, #DF8908 10%, #ff1d15);
+  background: linear-gradient(270deg, #4514b9 10%, #6f02b8);
   letter-spacing: 1px;
   cursor: pointer;
   transition: 0.3s ease-in-out;
@@ -79,10 +80,11 @@ span{
 }
 .gradient-btn:hover{
   transform: scale(1.05);
-  -webkit-box-shadow: 0px 0px 27px -7px rgba(234,88,12,1);
--moz-box-shadow: 0px 0px 27px -7px rgba(234,88,12,1);
-box-shadow: 0px 0px 27px -7px rgba(234,88,12,1);
+  -webkit-box-shadow: 0px 7px 50px -2px rgba(111,2,184,1);
+  -moz-box-shadow: 0px 7px 50px -2px rgba(111,2,184,1);
+  box-shadow: 0px 7px 50px -2px rgba(111,2,184,1);
 }
+
 section{
   min-height: 100vh;
   padding: 10rem 15%;
@@ -122,6 +124,7 @@ section{
   transition: 0.4s ease-in-out;
 }
 .home-img img:hover{
+  transform: scale(1.05);
   box-shadow: 0 0 25px var(--main-color),
               0 0 50px var(--main-color),
               0 0 100px var(--main-color);
@@ -196,6 +199,7 @@ section{
   transition: 0.4s ease-in-out;
 }
 .about-img img:hover{
+  transform: scale(1.05);
   box-shadow: 0 0 25px var(--main-color),
               0 0 50px var(--main-color),
               0 0 100px var(--main-color);
