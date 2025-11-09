@@ -66,6 +66,10 @@ span{
   background-clip: text;
   color: transparent;
 }
+
+#year{
+  color: var(--text-color);
+}
 .navbar a{
   font-size: 1.8rem;
   color: var(--text-color);
