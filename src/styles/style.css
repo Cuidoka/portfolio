@@ -20,6 +20,7 @@ html {
 body{
   background: var(--bg-color);
   color: var(--text-color);
+   animation: fadeInUp 1s ease;
 }
 .header {
   position: fixed;
