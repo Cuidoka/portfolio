@@ -17,11 +17,22 @@ html {
   font-size: 60%;
   overflow-x: hidden;
 }
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 body{
   background: var(--bg-color);
   color: var(--text-color);
-   animation: fadeInUp 1s ease;
+  animation: 1s fadeInUp;
 }
+
 .header {
   position: fixed;
   width: 100%;
