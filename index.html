@@ -23,7 +23,7 @@
         <a href="#projects">Projetos</a>
         <a href="#contact">Contato</a>
       </nav>
-      <a href="#contact" class="gradient-btn">Entrar em Contato</a>
+      <button class="gradient-btn">Entrar em Contato</button>
     </header>
 
     <section class="home" id="home">
@@ -35,16 +35,16 @@
           Agora estou aprendendo Java, aprofundando JavaScript, aprendendo MySQL e Python</p>
 
           <div class="social-icons">
-            <a href="https://github.com/Cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="GitHub do Cuidoka">
+            <a href="https://github.com/Cuidoka/">
               <i class='bx bxl-github'></i>
             </a>
-            <a href="https://www.linkedin.com/in/cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn do Cuidoka">
+            <a href="https://www.linkedin.com/in/cuidoka/">
               <i class='bx bxl-linkedin' ></i>
             </a>
-            <a href="https://www.instagram.com/cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="Instagram do Cuidoka">
+            <a href="https://www.instagram.com/cuidoka/" target="_blank">
               <i class='bx bxl-instagram' ></i>
             </a>
-            <a href="https://x.com/cuidok" target="_blank" rel="noopener noreferrer" aria-label="X do Cuidoka">
+            <a href="https://x.com/cuidok">
               <i class='bx bxl-twitter'></i>
             </a>
           </div>
@@ -135,8 +135,7 @@
             class="btn"
             href="https://github.com/rafaeldiasgarcia/sge"
             target="_blank"
-            >Ver Projeto SGE</a
-          >
+            >Ver Projeto SGE</a>
         </div>
 
         <div class="project-card">
@@ -146,35 +145,39 @@
           <p>Ficha Automática RPG é um projeto que desenvolvi para automatizar a criação de fichas de personagens para jogos de RPG.
             O Projeto consiste em criar um sistema que permita aos jogadores criar e gerenciar suas fichas de personagens de forma rápida e eficiente.
           </p>
-          <div class="btn">Ver Projeto Ficha Automática RPG</div>
+          <a
+            class="btn"
+            href="https://github.com/Cuidoka/ficha-sobrevivente-rota"
+            target="_blank"
+            >Ver Projeto Ficha Automática RPG</a>
         </div>
 
         <div class="project-card">
           <img src="/src/img/block.jpg" alt="" />
           <h3>Projeto 3: Ainda em desenvolvimento</h3>
           <p>Projeto em Desenvolvimento.</p>
-          <div class="btn">Ver Projeto</div>
+          <a class="btn" href="#" target="_blank">Ver Projeto</a>
         </div>
 
         <div class="project-card">
           <img src="/src/img/block.jpg" alt="" />
           <h3>Projeto 4: Ainda em desenvolvimento</h3>
           <p>Projeto em Desenvolvimento.</p>
-          <div class="btn">Ver Projeto</div>
+          <a class="btn" href="#" target="_blank">Ver Projeto</a >
         </div>
 
         <div class="project-card">
           <img src="/src/img/block.jpg" alt="" />
           <h3>Projeto 5: Ainda em desenvolvimento</h3>
           <p>Projeto em Desenvolvimento.</p>
-          <div class="btn">Ver Projeto</div>
+          <a class="btn" href="#" target="_blank">Ver Projeto</a>
         </div>
 
         <div class="project-card">
           <img src="/src/img/block.jpg" alt="" />
           <h3>Projeto 6: Ainda em desenvolvimento</h3>
           <p>Projeto em Desenvolvimento.</p>
-          <div class="btn">Ver Projeto</div>
+          <a class="btn" href="#" target="_blank">Ver Projeto</a>
         </div>
       </div>
     </section>
@@ -182,57 +185,38 @@
     <section class="contact" id="contact">
       <h2 class="heading">Fale <span>Comigo</span></h2>
 
-      <div class="contact-container">
-        <div class="contact-info">
-          <p class="contact-kicker">Contato direto</p>
-          <h3>Me chame onde a conversa acontece melhor.</h3>
-          <p class="contact-text">
-            Para oportunidades profissionais, projetos ou colaboração, o LinkedIn é o melhor caminho. Para uma conversa mais rápida, também respondo pelo Instagram.
-          </p>
-
-          <div class="contact-actions">
-            <a class="btn" href="https://www.linkedin.com/in/cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="Falar com Cuidoka pelo LinkedIn">
-              <i class='bx bxl-linkedin'></i>
-              Falar no LinkedIn
-            </a>
-            <a class="btn contact-secondary" href="https://www.instagram.com/cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="Falar com Cuidoka pelo Instagram">
-              <i class='bx bxl-instagram'></i>
-              Chamar no Instagram
-            </a>
+      <form action="#">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" placeholder="Nome Completo">
+            <input type="email" placeholder="E-mail">
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Número de Telefone">
+            <input type="text" placeholder="Assunto">
           </div>
         </div>
 
-        <div class="contact-links" aria-label="Outras redes do Cuidoka">
-          <a class="contact-card" href="https://github.com/Cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="Abrir GitHub do Cuidoka">
-            <i class='bx bxl-github'></i>
-            <div>
-              <h3>GitHub</h3>
-              <p>Veja meus projetos e códigos</p>
-            </div>
-          </a>
-          <a class="contact-card" href="https://x.com/cuidok" target="_blank" rel="noopener noreferrer" aria-label="Abrir X do Cuidoka">
-            <i class='bx bxl-twitter'></i>
-            <div>
-              <h3>X</h3>
-              <p>Acompanhe ideias e atualizações</p>
-            </div>
-          </a>
+        <div class="input-group-2">
+          <textarea name="" id="" placeholder="Sua mensagem" cols="30" rows="10"></textarea>
+        <input type="submit" value="Envie sua mensagem" class="btn">
         </div>
-      </div>
+
+      </form>
     </section>
 
     <footer class="footer">
       <div class="social-icons">
-        <a href="https://github.com/Cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="GitHub do Cuidoka">
+        <a href="#">
           <i class='bx bxl-github'></i>
         </a>
-        <a href="https://www.linkedin.com/in/cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn do Cuidoka">
+        <a href="#">
           <i class='bx bxl-linkedin' ></i>
         </a>
-        <a href="https://www.instagram.com/cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="Instagram do Cuidoka">
+        <a href="#">
           <i class='bx bxl-instagram' ></i>
         </a>
-        <a href="https://x.com/cuidok" target="_blank" rel="noopener noreferrer" aria-label="X do Cuidoka">
+        <a href="#">
           <i class='bx bxl-twitter'></i>
         </a>
       </div>
@@ -260,7 +244,7 @@
       </ul>
 
       <p class="copyright">
-        © <span id="year"></span> Cuidoka | Todos os direitos reservados
+        © Cuidoka | Todos os direitos reservados
       </p>
 
     </footer>
