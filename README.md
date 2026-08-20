@@ -29,7 +29,7 @@ Melhorias contínuas na UI/UX
 Possível inclusão de modo dark/light
 
 ## 🌐 Como Acessar ##
-O portfólio está disponível em: [Clique aqui!](https://portfolio-lake-mu-90.vercel.app/)
+O portfólio está disponível em: [Clique aqui!](https://portfolio-cuidokas-projects.vercel.app/)
 
 ## 💻 Tecnologias Utilizadas ##
 
