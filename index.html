@@ -185,38 +185,71 @@
     <section class="contact" id="contact">
       <h2 class="heading">Fale <span>Comigo</span></h2>
 
-      <form action="#">
-        <div class="input-group">
-          <div class="input-box">
-            <input type="text" placeholder="Nome Completo">
-            <input type="email" placeholder="E-mail">
-          </div>
-          <div class="input-box">
-            <input type="number" placeholder="Número de Telefone">
-            <input type="text" placeholder="Assunto">
+      <div class="contact-container">
+        <div class="contact-info">
+          <p class="contact-kicker">Contato direto</p>
+          <h3>Vamos conversar sobre projetos, ideias ou oportunidades.</h3>
+          <p class="contact-text">
+            Prefiro centralizar contato profissional pelo LinkedIn. Se for algo mais rápido ou informal, pode me chamar no Instagram.
+          </p>
+
+          <div class="contact-actions">
+            <a class="btn" href="https://www.linkedin.com/in/cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="Falar com Cuidoka pelo LinkedIn">
+              <i class='bx bxl-linkedin'></i>
+              Falar no LinkedIn
+            </a>
+            <a class="btn contact-secondary" href="https://www.instagram.com/cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="Chamar Cuidoka pelo Instagram">
+              <i class='bx bxl-instagram'></i>
+              Chamar no Instagram
+            </a>
           </div>
         </div>
 
-        <div class="input-group-2">
-          <textarea name="" id="" placeholder="Sua mensagem" cols="30" rows="10"></textarea>
-        <input type="submit" value="Envie sua mensagem" class="btn">
+        <div class="contact-links" aria-label="Outras redes do Cuidoka">
+          <a class="contact-card" href="https://github.com/Cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="Abrir GitHub do Cuidoka">
+            <i class='bx bxl-github'></i>
+            <div>
+              <h3>GitHub</h3>
+              <p>Veja meus projetos e códigos</p>
+            </div>
+          </a>
+          <a class="contact-card" href="https://x.com/cuidok" target="_blank" rel="noopener noreferrer" aria-label="Abrir X do Cuidoka">
+            <i class='bx bxl-twitter'></i>
+            <div>
+              <h3>X</h3>
+              <p>Acompanhe ideias e atualizações</p>
+            </div>
+          </a>
+          <a class="contact-card" href="#projects" aria-label="Ir para a seção de projetos">
+            <i class='bx bx-code-alt'></i>
+            <div>
+              <h3>Projetos</h3>
+              <p>Conheça o que estou construindo</p>
+            </div>
+          </a>
+          <a class="contact-card" href="#about" aria-label="Ir para a seção sobre mim">
+            <i class='bx bx-user'></i>
+            <div>
+              <h3>Sobre mim</h3>
+              <p>Entenda minha jornada na programação</p>
+            </div>
+          </a>
         </div>
-
-      </form>
+      </div>
     </section>
 
     <footer class="footer">
       <div class="social-icons">
-        <a href="#">
+        <a href="https://github.com/Cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="GitHub do Cuidoka">
           <i class='bx bxl-github'></i>
         </a>
-        <a href="#">
+        <a href="https://www.linkedin.com/in/cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn do Cuidoka">
           <i class='bx bxl-linkedin' ></i>
         </a>
-        <a href="#">
+        <a href="https://www.instagram.com/cuidoka/" target="_blank" rel="noopener noreferrer" aria-label="Instagram do Cuidoka">
           <i class='bx bxl-instagram' ></i>
         </a>
-        <a href="#">
+        <a href="https://x.com/cuidok" target="_blank" rel="noopener noreferrer" aria-label="X do Cuidoka">
           <i class='bx bxl-twitter'></i>
         </a>
       </div>
@@ -244,7 +277,7 @@
       </ul>
 
       <p class="copyright">
-        © Cuidoka | Todos os direitos reservados
+        © <span id="year"></span> Cuidoka | Todos os direitos reservados
       </p>
 
     </footer>
