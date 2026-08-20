@@ -29,7 +29,7 @@ Melhorias contínuas na UI/UX
 Possível inclusão de modo dark/light
 
 ## 🌐 Como Acessar ##
-O portfólio está disponível em: [Clique aqui!](https://cuidoka.github.io/portfolio/)
+O portfólio está disponível em: [Clique aqui!](https://portfolio-lake-mu-90.vercel.app/)
 
 ## 💻 Tecnologias Utilizadas ##
 

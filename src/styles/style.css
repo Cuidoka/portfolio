@@ -17,10 +17,22 @@ html {
   font-size: 60%;
   overflow-x: hidden;
 }
+@keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 body{
   background: var(--bg-color);
   color: var(--text-color);
+  animation: 1s fadeInUp;
 }
+
 .header {
   position: fixed;
   width: 100%;
@@ -53,6 +65,10 @@ span{
   background: linear-gradient(270deg, #b3b3ff 10%, #6f02b8);
   background-clip: text;
   color: transparent;
+}
+
+#year{
+  color: var(--text-color);
 }
 .navbar a{
   font-size: 1.8rem;
